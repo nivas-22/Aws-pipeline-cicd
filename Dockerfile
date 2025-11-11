@@ -1,5 +1,5 @@
 # Use the official OpenJDK 17 JDK slim image
-FROM openjdk:17-jdk-slim
+FROM openjdk:16-ea-3-slim
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled Java application JAR file into the container
